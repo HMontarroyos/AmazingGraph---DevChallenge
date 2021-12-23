@@ -11,7 +11,7 @@ function Home() {
                 <S.p>
                     Colaborate and create beautiful graphics with yout team
                 </S.p>
-                <Button>Start now </Button>
+                <Button width={"210px"}>Start now </Button>
             </S.div>
             <S.img src={Image} alt={"Equipe Apresentando Graficos"} />
         </S.Flexbox>

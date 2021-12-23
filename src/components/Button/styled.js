@@ -9,6 +9,11 @@ export const Button = styled.button`
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    width: 210px;
+    width: ${(props) => props.width};
     padding: 15px;
+    transition: all 0.1s;
+
+    &:hover {
+        background-color: ${colors.orangeDark};
+    }
 `;
