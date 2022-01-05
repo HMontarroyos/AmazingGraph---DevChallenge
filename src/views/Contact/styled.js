@@ -45,6 +45,29 @@ export const input = styled.input`
     border-radius: 5px;
     border: none;
     background-color: ${colors.orangeLight};
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+
+    &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    }
+    &::-moz-placeholder {
+        /* Firefox 19+ */
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    }
+    &:-ms-input-placeholder {
+        /* IE 10+ */
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    }
+    &:-moz-placeholder {
+        /* Firefox 18- */
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    }
 `;
 
 export const textarea = styled.textarea`
@@ -55,6 +78,29 @@ export const textarea = styled.textarea`
     margin: 10px;
     padding: 10px;
     resize: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+
+    &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    }
+    &::-moz-placeholder {
+        /* Firefox 19+ */
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    }
+    &:-ms-input-placeholder {
+        /* IE 10+ */
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    }
+    &:-moz-placeholder {
+        /* Firefox 18- */
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+    }
 `;
 
 export const inputButton = styled.input`
