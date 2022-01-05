@@ -4,12 +4,20 @@ import * as S from "./styled";
 function Header() {
     return (
         <S.Header>
-            <S.h2>DevChallenge</S.h2>
+            <S.LinkRedirect to={"/"}>
+                <S.h2>DevChallenge</S.h2>
+            </S.LinkRedirect>
             <nav>
                 <S.ul>
-                    <S.li>Home</S.li>
-                    <S.li>Features</S.li>
-                    <S.li>Contact</S.li>
+                    <S.LinkRedirect to={"/"}>
+                        <S.li>Home</S.li>
+                    </S.LinkRedirect>
+                    <S.LinkRedirect to={"/features"}>
+                        <S.li>Features</S.li>
+                    </S.LinkRedirect>
+                    <S.LinkRedirect to={"/contact"}>
+                        <S.li>Contact</S.li>
+                    </S.LinkRedirect>
                 </S.ul>
             </nav>
         </S.Header>

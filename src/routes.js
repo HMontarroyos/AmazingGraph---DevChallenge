@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { Home } from "./views";
+import { Home, Contact, Features } from "./views";
 import { Header } from "./components";
 
 const Routes = () => {
@@ -9,6 +9,8 @@ const Routes = () => {
             <Header />
             <Switch>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/contact" component={Contact} />
+                <Route exact path="/features" component={Features} />
             </Switch>
         </BrowserRouter>
     );

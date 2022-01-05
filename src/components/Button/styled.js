@@ -9,6 +9,7 @@ export const Button = styled.button`
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    margin: ${(props) => props.margin};
     width: ${(props) => props.width};
     padding: 15px;
     transition: all 0.1s;
